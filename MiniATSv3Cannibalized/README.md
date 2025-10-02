@@ -32,7 +32,7 @@ The fix:
 Additionally, another wire was added connecting the **VOP pin** of the NS4160 to **GPIO11** of the ESP32, so that with proper firmware the device could “read” the audio signal and decode RTTY and CW.  
 
 Detailed description of the **battery drain mod** can be found [here](../Hardware_Mod_for_V3_Battery_Drain/README.md).  
-
+  
 Also, a **comparison between V2 and V3** can be found [here](../V2_vs_V3/README.md).  
 
 
