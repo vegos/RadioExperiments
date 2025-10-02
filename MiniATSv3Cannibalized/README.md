@@ -40,7 +40,7 @@ After the improvements, another classic issue appeared: the **encoder** stopped 
 
 Removing it with hot air or/and with a soldering iron was not successful. The pins were too long, too many, and too thick, so I couldn’t heat them all at once. Most people facing the same problem cut the pins with side cutters. I used a more brutal method: my beloved **dremel**.
 
-![Cannibalized](Cannibalized.jpg)  
+![Cannibalized](images/Cannibalized.jpg)  
 *Removing the faulty encoder with a dremel, along with the scars left on the PCB.*
 
 During cutting, metallic/plastic dust filled the holes, and since I wasn’t careful enough, I not only scratched the PCB but also cut several traces.  
@@ -50,8 +50,8 @@ After placing it, rotation worked fine, but the **switch didn’t**.
 
 After troubleshooting, I found that the switch output (SW pin in the V1 schematic) was not connected to the correct ESP32 pin. This was solved with a jumper wire.  
 
-![New Encoder 1](NewEncoder1.jpg)  
-![New Encoder 2](NewEncoder2.jpg)  
+![New Encoder 1](images/NewEncoder1.jpg)  
+![New Encoder 2](images/NewEncoder2.jpg)  
 *New encoder installed, with a jumper wire to fix the cut trace.*
 
 ---
@@ -61,7 +61,7 @@ After reassembling into the case, the speaker stopped working (headphones still 
 
 A wire from VOP (connected to the ESP32) had been cut and shorted.  
 
-![The Problem](TheProblem.jpg)  
+![The Problem](images/TheProblem.jpg)  
 *When reassembling, this wire was cut and shorted half of the NS4160 bridge amplifier.*
 
 Troubleshooting revealed that this had burned one half of the NS4160 bridge output.  
@@ -71,12 +71,12 @@ Using a soldering iron didn’t work. Looking at a reference screenshot, I reali
 
 Heating from the bottom was impossible due to other components, so I had to use plenty of flux and hot air.  
 
-![Amp Removed](AmpRemoved.jpg)  
+![Amp Removed](images/AmpRemoved.jpg)  
 *The NS4160 removed.*  
 
 After removal, and after ordering a replacement, a new NS4160 was installed:  
 
-![Amp Soldered](AmpSoldered.jpg)  
+![Amp Soldered](images/AmpSoldered.jpg)  
 *Soldering in the new NS4160.*
 
 ---
@@ -95,14 +95,14 @@ So, I decided to completely bypass them:
 ## Fixed
 After all this, and after checking everything, finally the MiniATS V3 worked again.  
 
-![Fixed 1](Fixed1.jpg)  
-![Fixed 2](Fixed2.jpg)  
+![Fixed 1](images/Fixed1.jpg)  
+![Fixed 2](images/Fixed2.jpg)  
 *All fixed – sound is back from the speaker.*
 
 ---
 
 ## Ready for the Case
-![Ready For Case](ReadyForCase.jpg)  
+![Ready For Case](images/ReadyForCase.jpg)  
 *The receiver ready to go back into its case.*
 
 ---
@@ -131,4 +131,4 @@ But, for some reason I don’t quite understand, I kept working on it – and in
 ---
 
 ## Let’s Enjoy It
-![Enjoy!](Enjoy.jpg)
+![Enjoy!](images/Enjoy.jpg)
