@@ -16,7 +16,7 @@ This little radio basically consists of:
 - A headphone amplifier  
 - A JFET for the High-Z input circuit on the antenna side  
   
-It can receive AM, LSB, USB, FM (WFM) with coverage on LW/MW/SW (150 kHz–30 MHz) and VHF FM 64–108 MHz.  
+It can receive AM, SSB (LSB/USB) and FM (WFM), covering LW/MW/SW (150 kHz–30 MHz) and VHF (FM) (64–108 MHz).  
 
 
 ---
