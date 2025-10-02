@@ -1,4 +1,4 @@
-# Amnvolt MiniATS V3 – Mods & Repair Story
+# AMNVOLT MiniATS V3 Si4732 Radio – Mods & Repair Story
 
 ## TL;DR
 A long story follows.  
@@ -15,6 +15,9 @@ This little radio basically consists of:
 - A NS4160 audio amplifier (the star of our story)  
 - A headphone amplifier  
 - A JFET for the High-Z input circuit on the antenna side  
+  
+It can receive AM, LSB, USB, FM (WFM) with coverage on LW/MW/SW (150 kHz–30 MHz) and VHF FM 64–108 MHz.  
+
 
 ---
 
