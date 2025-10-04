@@ -26,15 +26,15 @@ The transformer steps impedance from ~50 Ω to ~450 Ω, improving matching and S
 
 ```
 (High-Z side, ~450 Ω)
+|
+[C] -----------+----------------> Receiver (MiniATS V3/V3S input)
+|
+24 turns total |
 │
-[C]───────┐──────────────► Receiver (MiniATS V3/V3S input)
-│
-24 turns total │
-│
-(Tap @ 8 turns) [B8]────────────► Antenna (50 Ω)
-│
-│
-[A]──────┘──────────────► Ground / SMA shells (common)
+(Tap @ 8 turns) [B8] -----------> Antenna (50 Ω)
+|
+|
+[A] -----------+----------------> Ground / SMA shells (common)
 (Low-Z side reference)
 ```
 
