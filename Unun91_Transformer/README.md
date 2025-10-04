@@ -201,4 +201,3 @@ These measurements demonstrate that the Unun 9:1 provides a solid impedance tran
 
 ## 🛠 Author Notes
 Built by Antonis Maglaras. Tests with NanoVNA-H4 (v4.3, running firmware v.1.2.44) for verification of 50 Ω ↔ 450 Ω matching.  
-Significantly improves SNR of MiniATS V3S across HF.
