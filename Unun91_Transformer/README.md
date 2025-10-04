@@ -209,7 +209,7 @@ The receiver showed an S-meter rise of several dB.
 
 | Without Transformer | With Transformer |
 |----------------------|------------------|
-| ![Without Transformer](./images/WithoutTransformer.jpg) | ![With Transformer](./images/WithTransformer.jpg) |
+| ![Without Transformer](./images/10.%20WithoutTransformer.jpg) | ![With Transformer](./images/11.%20WithTransformer.jpg) |
 
 *(Receiver shown: MiniATS V3 Cannibalized — see [`../MiniATSv3Cannibalized`](../MiniATSv3Cannibalized) for details.)*
 
