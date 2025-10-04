@@ -24,25 +24,17 @@ The transformer steps impedance from ~50 Ω to ~450 Ω, improving matching and S
 
 ## 🧭 Connections
 
-```
-(High-Z side, ~450 Ω)
-|
-[C] -----------+----------------> Receiver (MiniATS V3/V3S input)
-|
-24 turns total |
-│
-(Tap @ 8 turns) [B8] -----------> Antenna (50 Ω)
-|
-|
-[A] -----------+----------------> Ground / SMA shells (common)
-(Low-Z side reference)
-```
+The transformer has three connection points:
 
 | Label | Description | Impedance | Connection |
-|-------|-------------|-----------|------------|
-| **A** | Common ground | — | SMA shells / GND |
-| **B8** | Tap at 8th turn from ground | ~50 Ω | Antenna center |
-| **C** | End of 24 turns | ~450 Ω | Receiver input |
+|--------|--------------|------------|-------------|
+| **A** | Start of the winding (common ground) | — | SMA ground / shield |
+| **B8** | Tap at the 8th turn from the ground | ~50 Ω | Antenna input (low-Z side) |
+| **C** | End of the winding (after 24 total turns) | ~450 Ω | Receiver input (high-Z side) |
+
+- The winding starts at **A** and ends at **C**, with a **tap at the 8th turn (B8)** used for the 50 Ω connection.  
+- The ground (**A**) is common for both connectors.  
+- This configuration transforms **50 Ω ↔ 450 Ω** (impedance ratio 9:1).  
 
 ---
 
