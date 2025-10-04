@@ -60,11 +60,70 @@ The transformer has three connection points:
 
 ---
 
+## 🧰 Build Log
+
+Below is the construction process of the 9:1 transformer, step by step.
+
+### 1️⃣ Core Winding  
+Initial winding of the FT114-43 ferrite toroid — 24 total turns with a tap at the 8th turn.
+
+![Construction](./images/1.%20Construction.jpg)
+
+---
+
+### 2️⃣ Initial Tests  
+First measurements and functional checks using the NanoVNA and test receivers.
+
+![First Tests](./images/2.%20FirstTests.jpg)
+
+---
+
+### 3️⃣ SMA Connector Preparation  
+SMA connectors mounted and soldered to the wire ends for the low-Z and high-Z sides.
+
+![Almost Ready](./images/3.%20AlmostRead.jpg)
+
+---
+
+### 4️⃣ Enclosure Preparation  
+Drilled aluminum enclosure with openings for the SMA connectors.
+
+![The Case](./images/4.%20TheCase.jpg)
+
+---
+
+### 5️⃣ Placement in Enclosure  
+The toroidal transformer placed and wired inside the box.
+
+![Placed1](./images/5.%20Placed1.jpg)  
+![Placed2](./images/6.%20Placed2.jpg)
+
+---
+
+### 6️⃣ Securing the Core  
+Core fixed in place with hot glue for mechanical stability and vibration damping.
+
+![Secured](./images/7.%20Secured.jpg)
+
+---
+
+### 7️⃣ Final Assembly  
+The finished 9:1 transformer with clear labeling for 50 Ω and 450 Ω connections.
+
+![Case1](./images/8.%20Case1.jpg)  
+![Case2](./images/9.%20Case2.jpg)
+
+---
+
+✅ The build is complete and verified through NanoVNA measurements, confirming the expected 50 ↔ 450 Ω transformation across the HF range.
+
+---
+
 ## 🔍 Usage
 
 | Setup | Description |
 |-------|-------------|
-| **50Ω Antenna → MiniATS V3/V3S** | Connect antenna to 50 Ω side (B8), receiver to 450 Ω side (C). The Unun raises impedance, improving matching. |
+| **50 Ω Antenna → MiniATS V3/V3S** | Connect antenna to 50 Ω side (B8), receiver to 450 Ω side (C). The Unun raises impedance, improving matching. |
 | **NanoVNA test** | 470 Ω dummy load at C → Port 1 at B8 → expect ~50 Ω matching. |
 | **Receivers with ~7 kΩ input (MiniATS V1/V2)** | Tap at 2 turns from ground for 1:144 ratio. |
 
