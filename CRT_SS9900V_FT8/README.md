@@ -1,13 +1,15 @@
-# FT8 Report (28.074 MHz) — CRT SS9900V + Sirio Boomerang 27A
+# FT8 Report (28.074 MHz) — CRT SS9900V & Sirio Boomerang 27A
 
-Full analysis of today’s FT8 decodes from WSJT-X, received using **CRT SS9900V** and **Sirio Boomerang 27A**,  
+Analysis of FT8 decodes from WSJT-X, received using **CRT SS9900V** and **Sirio Boomerang 27A**,  
 QTH **KM17UW (Greece)**.
 
 ---
 
 ## 🌏 Reception Map
 
-![Map from PSKReporter](./FT8.jpg)
+![Map from PSKReporter](./FT8.jpg)  
+
+---
 
 ## 📊 Summary
 
@@ -72,7 +74,6 @@ indicating excellent propagation and a clean receive path.
 | 14 | **VU2XO** | MK82 | 7 306 | −16 | 6 |
 | 15 | **UN8GEQ** | MN83 | 7 280 | −15 | 9 |
 
-
 ---
 
 ### 🏆 Top 15 Strongest Stations (by best SNR)
@@ -108,10 +109,10 @@ indicating excellent propagation and a clean receive path.
 
 ## 🧭 Summary
 
-The **CRT SS9900V** with **Sirio Boomerang 27A**:
+Performance of the **CRT SS9900V** with **Sirio Boomerang 27A**:  
 - Over **31k decodes**, **1.2k unique stations**,  
 - and a stunning **16,564 km** best DX (Fiji).  
 
-Note that it's a compact, CB antenna and it's between buildings.  
+Note that it's a compact, CB antenna and it's mounted place is between buildings.  
 
-[Log file](./CRT_SS990V_Sirio_Boomerang.txt)  
+[Full log file](./CRT_SS990V_Sirio_Boomerang.txt)  
