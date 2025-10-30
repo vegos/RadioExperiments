@@ -108,12 +108,10 @@ indicating excellent propagation and a clean receive path.
 
 ## 🧭 Summary
 
-The **CRT SS9900V** with **Sirio Boomerang 27A** delivered excellent FT8 performance on 10 meters:
+The **CRT SS9900V** with **Sirio Boomerang 27A**:
 - Over **31k decodes**, **1.2k unique stations**,  
 - and a stunning **16,564 km** best DX (Fiji).  
 
-For a compact, CB-type vertical antenna, this is truly impressive performance.
+Note that it's a compact, CB antenna and it's between buildings.  
 
----
-
-*Generated with Python analysis & WSJT-X `all.txt` data — 30 October 2025*
+[Log file](./CRT_SS990V_Sirio_Boomerang.txt)  
