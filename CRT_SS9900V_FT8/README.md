@@ -5,6 +5,10 @@ QTH **KM17UW (Greece)**.
 
 ---
 
+## 🌏 Reception Map
+
+![Map from PSKReporter](./FT8.jpg)
+
 ## 📊 Summary
 
 | Metric | Value |
@@ -32,7 +36,7 @@ QTH **KM17UW (Greece)**.
 ## 📡 Band Conditions
 
 ### Distance Distribution
-![Distance Histogram](sandbox:/mnt/data/ft8_distance_hist.png)
+![Distance Histogram](./ft8_distance_hist.png)
 
 Most decodes were between **2,000–3,000 km**, corresponding to **Europe & Middle East** paths.  
 A secondary lobe appears between **6,000–10,000 km**, representing **Asia**,  
@@ -41,7 +45,7 @@ and the longest DX tail reaches **16,564 km (Oceania)**.
 ---
 
 ### SNR Distribution
-![SNR Histogram](sandbox:/mnt/data/ft8_snr_hist.png)
+![SNR Histogram](./ft8_snr_hist.png)
 
 SNR values center around **−5 dB**, with a smooth positive tail up to **+31 dB**,  
 indicating excellent propagation and a clean receive path.
