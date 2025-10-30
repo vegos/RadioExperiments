@@ -113,6 +113,9 @@ Performance of the **CRT SS9900V** with **Sirio Boomerang 27A**:
 - Over **31k decodes**, **1.2k unique stations**,  
 - and a stunning **16,564 km** best DX (Fiji).  
 
-Note that it's a compact, CB antenna and it's mounted place is between buildings.  
+Note:  
+&nbsp;&nbsp;&nbsp;&nbsp;Sirio Boomerang 27A is a compact antenna (1/4 λ, 26.8-27.6 MHz, 3600 mm height) and it's mounted place is between buildings.  
+&nbsp;&nbsp;&nbsp;&nbsp;Coax is about 15 meters of RG58.  
+
 
 [Full log file](./CRT_SS990V_Sirio_Boomerang.txt)  
