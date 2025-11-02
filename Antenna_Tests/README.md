@@ -55,7 +55,7 @@ Measurements were conducted using a **NanoVNA** for impedance and match characte
 
 ---
 
-## 🗼 2. Boomerang — CB / 11 m Vertical Antenna
+## 🗼 2. Sirio Boomerang 27A — CB / 11 m Vertical Antenna
 
 ### General Characteristics
 
@@ -99,7 +99,7 @@ Measurements were conducted using a **NanoVNA** for impedance and match characte
 
 ## 📚 Combined Overview
 
-| Feature | **Moonraker X1-HF** | **Boomerang** |
+| Feature | **Moonraker X1-HF** | **Sirio Boomerang 27A** |
 |:--|:--|:--|
 | **Purpose** | Wideband HF reception | Monoband CB (RX/TX) |
 | **Best Frequency Region** | 25 – 30 MHz | 27 MHz (center) |
