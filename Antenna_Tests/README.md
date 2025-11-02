@@ -7,7 +7,7 @@
 
 ## Overview
 
-This document summarizes comparative measurements and performance observations of two receiving antennas used with SDR equipment:
+This document summarizes comparative measurements and performance observations of the following two  antennas:
 
 1. **Moonraker X1-HF** — a wideband HF receive-only antenna (1-50 MHz).  
 2. **Sirio Boomerang 27A** — a monoband CB vertical antenna (26.8-27.6 MHz).
