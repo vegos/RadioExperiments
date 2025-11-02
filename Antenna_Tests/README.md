@@ -38,10 +38,10 @@ Measurements were conducted using a **NanoVNA** for impedance and match characte
 
 | Band | Frequency | VSWR | Return Loss | TinySA Behavior / Signal Response | Notes |
 |:--|--:|--:|--:|:--|:--|
-| **80 m** | 3.7 MHz (measured 3.509 MHz) | 5.75 : 1 | –3.05 dB | Low energy, dominated by MW/BC noise | Out of resonance; use a 2 MHz HPF for cleaner noise floor |
-| **40 m** | 7.0 MHz | 2.94 : 1 | –6.15 dB | Moderate signal activity, visible HF stations | Ferrite choke reduces CM coupling and stabilizes impedance |
-| **20 m** | 14.0 MHz | 3.55 : 1 | –5.08 dB | Smooth response, average signal level | Acceptable for FT8 / general HF listening |
-| **11 m / CB** | 27.0 MHz | 2.59 : 1 | –7.07 dB | Clearer spectrum, small 25–35 MHz “hill” | Best region of performance for this antenna |
+| **80 m** | 3.7 MHz (measured 3.509 MHz) | 5.75:1 | –3.05 dB | Low energy, dominated by MW/BC noise | Out of resonance; use a 2 MHz HPF for cleaner noise floor |
+| **40 m** | 7.0 MHz | 2.94:1 | –6.15 dB | Moderate signal activity, visible HF stations | Ferrite choke reduces CM coupling and stabilizes impedance |
+| **20 m** | 14.0 MHz | 3.55:1 | –5.08 dB | Smooth response, average signal level | Acceptable for FT8 / general HF listening |
+| **11 m / CB** | 27.0 MHz | 2.59:1 | –7.07 dB | Clearer spectrum, small 25–35 MHz “hill” | Best region of performance for this antenna |
 
 ---
 
@@ -103,7 +103,7 @@ Measurements were conducted using a **NanoVNA** for impedance and match characte
 |:--|:--|:--|
 | **Purpose** | Wideband HF reception | Monoband CB (RX/TX) |
 | **Best Frequency Region** | 25 – 30 MHz | 27 MHz (center) |
-| **VSWR (best)** | 2.6 : 1 @ 27 MHz | 1.2 : 1 @ 27 MHz |
+| **VSWR (best)** | 2.6:1 @ 27 MHz | 1.2:1 @ 27 MHz |
 | **Return Loss (best)** | –7 dB | –24 dB |
 | **Bandwidth** | Very wide (1.8–30 MHz) | Narrow (≈ 500 kHz) |
 | **Noise Floor (TinySA)** | –95 dBm / –85 dBm (LNA on) | –98 dBm / –96 dBm (LNA on) |
