@@ -7,16 +7,16 @@ This page summarizes both observed hardware details and the manufacturer’s sta
 
 ## 📸 Photos
 
-![Front On](images/01_MiniATS_V4.jpg)
-![Front Off](images/02_Front.jpg)
-![Back](images/03_Back.jpg)
-![Front Frame (LCD Removed)](images/04_Screen.jpg)
-![PCB Front](images/05_PCB.jpg)
-![Battery & Speaker](images/06_Battery_Speaker.jpg)
-![PCB Back](images/07_PCB_Back.jpg)
-![PCB Front Close](images/08_PCB_Front.jpg)
-![PCB Detail – RF Section](images/09_PCB_Detail_Right.jpg)
-![PCB Detail – Power & I/O](images/10_PCB_Detail_Left.jpg)
+![The Radio](images/01._MiniATS_V4.jpg)
+![Front](images/02._Front.jpg)
+![Back](images/03._Back.jpg)
+![Front Frame (LCD Removed)](images/04._Screen.jpg)
+![PCB Front](images/05._PCB.jpg)
+![Battery & Speaker](images/06._Battery_Speaker.jpg)
+![PCB Back](images/07._PCB_Back.jpg)
+![PCB Front Close](images/08._PCB_Front.jpg)
+![PCB Detail – RF Section](images/09._PCB_Detail_Right.jpg)
+![PCB Detail – Power & I/O](images/10._PCB_Detail_Left.jpg)
 
 ---
 
