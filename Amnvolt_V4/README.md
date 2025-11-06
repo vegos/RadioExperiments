@@ -12,7 +12,7 @@ This page summarizes both observed hardware details and the manufacturer’s sta
 ![Back](images/03._Back.jpg)
 ![Front Frame (LCD Removed)](images/04._Screen.jpg)
 ![PCB Front](images/05._PCB.jpg)
-![Battery & Speaker](images/06._Battery_Speaker.jpg)
+![Battery & Speaker](images/06._Battery_and_Speaker.jpg)
 ![PCB Back](images/07._PCB_Back.jpg)
 ![PCB Front Close](images/08._PCB_Front.jpg)
 ![PCB Detail – RF Section](images/09._PCB_Detailed_Right.jpg)
