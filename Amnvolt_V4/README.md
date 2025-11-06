@@ -15,8 +15,8 @@ This page summarizes both observed hardware details and the manufacturer’s sta
 ![Battery & Speaker](images/06._Battery_Speaker.jpg)
 ![PCB Back](images/07._PCB_Back.jpg)
 ![PCB Front Close](images/08._PCB_Front.jpg)
-![PCB Detail – RF Section](images/09._PCB_Detail_Right.jpg)
-![PCB Detail – Power & I/O](images/10._PCB_Detail_Left.jpg)
+![PCB Detail – RF Section](images/09._PCB_Detailed_Right.jpg)
+![PCB Detail – Power & I/O](images/10._PCB_Detailed_Left.jpg)
 
 ---
 
@@ -92,7 +92,7 @@ This page summarizes both observed hardware details and the manufacturer’s sta
 
 ## 🧰 Mods (so far)
 
-![PCB With 0 Ω Resistor](images/11_PCB_With_0R.jpg)
+![PCB With 0 Ω Resistor](images/11._PCB_With_0R.jpg)
 
 - **0 Ω resistor (jumper) added** between speaker output and GPIO 11  
   Enables use with alternative firmware supporting **RTTY / CW decoding**.  
