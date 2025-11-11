@@ -108,6 +108,18 @@ This page summarizes both observed hardware details and the manufacturer’s sta
 
 ---
 
+## 🔥 Must Do Modifications
+
+- [`Must-do MiniATS V4 Modifications for better reception`](..//Amnvolt_V4_mods/README.md)
+
+---
+
+## 📻 Reception Tests
+
+- [`FT8 Decoding with the (modded) MiniATS V4`](./Reception_Tests/README.md)
+
+---
+
 ## 📜 License
 - Text & images: **CC BY-SA 4.0**  
 - Code (if any): **MIT**
