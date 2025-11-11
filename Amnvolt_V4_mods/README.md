@@ -98,6 +98,36 @@ This design caused:
 
 ---
 
+## 🌀 Coil Specification
+
+- **Type:** Air-core RF choke  
+- **Turns:** 7 turns  
+- **Core diameter:** ≈ 2 mm (wound on a drill bit or similar)  
+- **Wire:** Enamelled copper wire, Ø 0.2 mm  
+- **Inductance:** Not critical — the purpose is to provide high impedance in the 3 GHz region, attenuating VCO leakage while maintaining broadband HF/VHF input response.  
+- **Installation note:** The coil is placed in series between the SMA connector and the antenna trace immediately after the cut point.
+
+---
+
+## 🧪 Measurement Setup (reproducibility)
+
+- **Instrument:** tinySA Ultra+  
+- **Span:** 100 kHz → 6.000 GHz  
+- **RBW/VBW:** 850 kHz / 850 kHz  
+- **Reference / Attenuation:** 0 dBm / 0 dB  
+- **Marker (examples):**  
+  - Mini ATS V2 / V3S ≈ **3.527 GHz**  
+  - Mini ATS V4 / V4 + coil ≈ **3.087 GHz**
+
+---
+
+## Safety notes 
+- Antenna fully disconnected  
+- **Battery disconnected**
+
+---
+
+
 ## ✍️ Credits
 
 - **Original Concept:** [Peter Neufeld](https://peterneufeld.wordpress.com/)  
