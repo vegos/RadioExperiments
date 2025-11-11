@@ -126,6 +126,22 @@ This design caused:
 
 ---
 
+## 📡 Additional Measurements Across the Tuning Range
+
+To further confirm the coil’s effectiveness throughout the full reception range, additional measurements were taken on the **Mini ATS V4 (with coil mod)** at representative tuning points:
+
+| Tuned Frequency | VCO Frequency | Measured Level | Screenshot |
+|-----------------|----------------|----------------|-------------|
+| **150 kHz** (start of band) | 3.3146 GHz | −38.2 dBm | ![V4 150 kHz](images/V4_with_coil_150khz.png) |
+| **10 MHz** (low-HF region) | 3.2111 GHz | −42.4 dBm | ![V4 10 MHz](images/V4_with_coil_10mhz.png) |
+| **27 MHz** (mid-HF band) | 3.0909 GHz | −47.7 dBm | ![V4 27 MHz](images/V4_with_coil_27mhz.png) |
+| **108 MHz** (end of band) | 3.4635 GHz | −35.4 dBm | ![V4 108 MHz](images/V4_with_coil_108mhz.png) |
+
+These measurements confirm that the **coil maintains effective suppression** of the SI4732 VCO leakage across the entire tuning range.  
+The VCO output remains reduced by approximately **25 – 30 dB** compared to the unmodified board, with slight variations depending on frequency — consistent with the internal behavior of the SI4732 PLL and the broadband impedance profile of the added RF choke.
+
+---
+
 ## ⚠️ Safety Notes
 
 - Disconnect the **battery** before any soldering or cutting operations.  
