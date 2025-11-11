@@ -159,3 +159,44 @@ Raw data:
 - [`top15_by_snr.csv`](./top15_by_snr.csv)  
 - [`per_hour.csv`](./per_hour.csv)
 
+
+
+---
+
+## ☀️ Solar & Geomagnetic Conditions (11–13 November 2025)
+
+During the observation period, space weather conditions were **highly disturbed**, directly influencing HF propagation — including the FT8 reception shown in this report.
+
+### NOAA Alerts & Events
+
+- **Geomagnetic Storm Watch (G2–G3, 11–13 Nov 2025)**  
+  Issued by NOAA/SWPC due to multiple CMEs impacting Earth’s magnetic field.  
+  → [NOAA SWPC: Geomagnetic Storm Watches, 11–13 November 2025](https://www.swpc.noaa.gov/news/geomagnetic-storm-watches-11-13-november)
+
+- **X5.1 Solar Flare & R3 Radio Blackout (Region 4274, 11 Nov 2025)**  
+  A very strong flare on Veterans Day triggered a temporary global HF blackout on the sunlit side of Earth.  
+  → [NOAA SWPC: “Veterans Day Fireworks” X5.1 Flare (R3 Strong, Region 4274)](https://www.swpc.noaa.gov/news/veterans-day-fireworks-x51-flare-r3-strong-region-4274)
+
+---
+
+### Observed Impact on 20 m Band
+
+| Time (UTC) | Space Weather Effect | Observed Behavior in Log |
+|:--|:--|:--|
+| 08–09 UTC | CME-induced ionospheric fluctuations | Drop in mid-range (1–3 Mm) decodes, unstable SNR |
+| 10–11 UTC | R3 blackout from X5.1 flare | Sharp temporary decline in total decodes; loss of 14 MHz skip paths |
+| 12–15 UTC | Recovery phase | Band reopens strongly toward Asia & Indian Ocean |
+| 16–17 UTC | Residual geomagnetic activity | Gradual fade-out, typical end-of-day propagation |
+
+---
+
+### Summary
+
+The combination of an **R3-level radio blackout** and a **G3 geomagnetic storm** produced highly dynamic ionospheric behavior.  
+Despite this, the MiniATS V4 setup maintained a **consistent decoding performance**, quickly resuming normal operation as conditions stabilized.
+
+This confirms both the **receiver’s robustness** and the **sensitivity of the Moonraker X1-HF antenna system**, even under severe solar weather stress.
+
+---
+
+> _Space weather data and event information courtesy of the NOAA Space Weather Prediction Center (SWPC)._
