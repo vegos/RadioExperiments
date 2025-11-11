@@ -105,7 +105,7 @@
 - **Noise Floor:** Low; strong decoding consistency even < −15 dB.  
 - **Linearity:** No overload — strong signals don’t mask weak ones.  
 - **Propagation:** EU F-layer morning skip; Asian openings 12–15 UTC; occasional Fiji tail.  
-- **Hardware Chain:** MiniATS V4 + UR22C handles heavy traffic cleanly.
+- **Hardware Chain:** (Modded) MiniATS V4 + UR22C handles heavy traffic cleanly.
 
 ---
 
@@ -151,18 +151,6 @@ This makes it a capable and efficient receiver for FT8 monitoring on 14 MHz, wel
 
 ---
 
-## 🧩 Files
-
-Raw data:
-- [`summary.csv`](./summary.csv)  
-- [`top15_by_distance.csv`](./top15_by_distance.csv)  
-- [`top15_by_snr.csv`](./top15_by_snr.csv)  
-- [`per_hour.csv`](./per_hour.csv)
-
-
-
----
-
 ## ☀️ Solar & Geomagnetic Conditions (11–13 November 2025)
 
 During the observation period, space weather conditions were **highly disturbed**, directly influencing HF propagation — including the FT8 reception shown in this report.
@@ -196,6 +184,16 @@ The combination of an **R3-level radio blackout** and a **G3 geomagnetic storm**
 Despite this, the MiniATS V4 setup maintained a **consistent decoding performance**, quickly resuming normal operation as conditions stabilized.
 
 This confirms both the **receiver’s robustness** and the **sensitivity of the Moonraker X1-HF antenna system**, even under severe solar weather stress.
+
+---
+
+## 🧩 Files
+
+Raw data:
+- [`summary.csv`](./summary.csv)  
+- [`top15_by_distance.csv`](./top15_by_distance.csv)  
+- [`top15_by_snr.csv`](./top15_by_snr.csv)  
+- [`per_hour.csv`](./per_hour.csv)
 
 ---
 
