@@ -3,7 +3,7 @@
 ## 📋 Overview
 The **Mini ATS V4** is the latest revision of the well-known all-band receiver based on **ESP32-S3** and **SI4732**.  
 While it introduces new features, it also suffers from **strong RF noise**, **VCO leakage**, and **poor ground isolation**.  
-This document details the issues, precise measurements, and applied hardware fixes that significantly improve stability and reception quality.
+This document details the issues, measurements, and hardware fixes that significantly improve its stability and reception quality.
 
 ---
 
@@ -29,16 +29,16 @@ This leakage couples into the antenna input, creating audible interference and u
 ---
 
 ### 2. “Theremin Effect”
-Touching the antenna (especially in **SSB mode**) caused tone shifts and unstable behavior — just like a *theremin*.  
-The SI4732 shielding proved highly sensitive to touch and physical movement.
+Touching the antenna (especially in **SSB mode**) caused tone shifts and unstable behavior — similar to a *theremin*.  
+The SI4732 shielding was highly sensitive to touch and even slight mechanical movement.
 
 ### 3. Encoder Clicks & Wi-Fi Spur
 Turning or pressing the encoder produced **audible clicks** in the headphones, caused by RF coupling between the **ESP32 Wi-Fi**, **encoder lines**, and **audio amplifier**.
 
 ### 4. Headphone Jack as Antenna Input
-The Mini ATS V4 attempted to use the headphone cable as an antenna via a **direct trace connection** between the jack and antenna input — without isolating the ground path.  
+The Mini ATS V4 attempted to use the headphone cable as an antenna via a **direct trace connection** between the jack and the antenna input — without isolating the ground path.  
 This design caused:
-- Massive noise injection  
+- Heavy noise injection  
 - Wi-Fi interference  
 - Audio path instability  
 
@@ -51,15 +51,15 @@ This design caused:
 - This isolates the audio ground from the RF path.  
 - ✅ *Result:*  
   - No more encoder clicks  
-  - Noticeable drop in Wi-Fi noise  
+  - Noticeable reduction in Wi-Fi noise  
 
 ### 2️⃣ RF Shielding & Mechanical Stabilization
-- Added **Kapton tape** over the **VBAT (+)** power switch pins to prevent accidental shorts — they sit dangerously close to the SI4732 shield.  
-- Placed a small **thermal pad** over the SI4732 module to stabilize the shielding cover and reduce microphonic coupling.
+- Added **Kapton tape** over the **VBAT (+)** power switch pins to prevent accidental shorts — they are dangerously close to the SI4732 shield.  
+- Placed a small **thermal pad** on top of the SI4732 module to stabilize the shield cover and reduce microphonic coupling.
 
 ### 3️⃣ Coil Mod (after Peter Neufeld)
-- The **antenna trace** was cut **right after the SMA connector** — this point was chosen because the trace continues on the back side to an **ESD protection diode**, leaving no safe space further down.  
-- Inserted a **7-turn, 2 mm diameter coil** in series between the SMA connector and antenna input.  
+- The **antenna trace** was cut **immediately after the SMA connector**, because the trace continues on the back side to an **ESD protection diode** — leaving no space further down.  
+- A **7-turn, 2 mm diameter coil** was inserted in series between the SMA connector and the antenna input.  
 - The coil acts as an **RF choke**, drastically reducing VCO coupling and improving RF input stability.
 
 ---
@@ -68,10 +68,10 @@ This design caused:
 
 | Step | Description | Image |
 |------|--------------|-------|
-| 1️⃣ | Remove the SMA connector (soldered on both sides – handle carefully) | ![Removing SMA](images/1._Removing_the_SMA.jpg) |
+| 1️⃣ | Remove the SMA connector (soldered on both sides — handle carefully) | ![Removing SMA](images/1._Removing_the_SMA.jpg) |
 | 2️⃣ | Cut the antenna trace just after the SMA (before the ESD diode path) | ![Cut trace](images/2._Cut_the_trace_shorten_the_pin.jpg) |
 | 3️⃣ | Re-solder the SMA connector | ![Solder SMA](images/3._Solder_the_SMA.jpg) |
-| 3b️⃣ | Remove the coupling capacitor, add Kapton tape and a small thermal pad on the SI4732. Thermal pad is used as a spacer between the SI4732 and the shielding case, to reduce the effect that bending of the shield acting as an efficient atenna for the SI VCO | ![Removed cap](images/3b._Capacitor_also_removed.jpg) |
+| 3b️⃣ | Remove the coupling capacitor, add Kapton tape and a small thermal pad on the SI4732. The pad acts as a spacer between the chip and the shielding can, reducing the shield’s tendency to behave as an efficient antenna for the SI4732 VCO. | ![Removed cap](images/3b._Capacitor_also_removed.jpg) |
 | 4️⃣ | Add the 7-turn (2 mm) coil between SMA and RF input | ![Add coil](images/4._Add_the_coil.jpg) |
 
 ---
@@ -103,8 +103,8 @@ This design caused:
 - **Type:** Air-core RF choke  
 - **Turns:** 7 turns  
 - **Core diameter:** ≈ 2 mm (wound on a drill bit or similar)  
-- **Wire:** Enamelled copper wire, Ø 0.2 mm  
-- **Inductance:** Not critical — the purpose is to provide high impedance in the 3 GHz region, attenuating VCO leakage while maintaining broadband HF/VHF input response.  
+- **Wire:** Enamelled copper, Ø 0.2 mm  
+- **Inductance:** Not critical — the goal is to provide high impedance around 3 GHz, attenuating VCO leakage while maintaining broadband HF/VHF response.  
 - **Installation note:** The coil is placed in series between the SMA connector and the antenna trace immediately after the cut point.
 
 ---
@@ -117,24 +117,31 @@ This design caused:
 - **Reference / Attenuation:** 0 dBm / 0 dB  
 - **Marker (examples):**  
   - Mini ATS V2 / V3S ≈ **3.527 GHz**  
-  - Mini ATS V4 / V4 + coil ≈ **3.087 GHz**
+  - Mini ATS V4 / V4 + coil ≈ **3.087 GHz**  
+- **Notes:**  
+  - Antenna fully disconnected  
+  - **Battery disconnected** during all work and measurements  
+  - SI4732 shield in place  
+  - SMA base touched only for the *“residual noise at SMA base”* test  
 
 ---
 
-## Safety notes 
-- Antenna fully disconnected  
-- **Battery disconnected**
+## ⚠️ Safety Notes
+
+- Disconnect the **battery** before any soldering or cutting operations.  
+- Use ESD precautions.  
+- The SMA connector is soldered on **both sides** of the PCB — use controlled heat to avoid pad lifting.  
+- All modifications are done **at your own risk** and will **void any warranty**.
 
 ---
-
 
 ## ✍️ Credits
 
 - **Original Concept:** [Peter Neufeld](https://peterneufeld.wordpress.com/)  
+- **Documentation & Implementation:** [Antonis Maglaras (@vegos)](https://github.com/vegos)  
 
 ---
 
 ## 📜 License
 This modification guide is released under the **MIT License**.  
 You are free to use, modify, and share it — please credit the original authors.
-
