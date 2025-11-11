@@ -71,7 +71,7 @@ This design caused:
 | 1️⃣ | Remove the SMA connector (soldered on both sides – handle carefully) | ![Removing SMA](images/1._Removing_the_SMA.jpg) |
 | 2️⃣ | Cut the antenna trace just after the SMA (before the ESD diode path) | ![Cut trace](images/2._Cut_the_trace_shorten_the_pin.jpg) |
 | 3️⃣ | Re-solder the SMA connector | ![Solder SMA](images/3._Solder_the_SMA.jpg) |
-| 3b️⃣ | Remove the coupling capacitor, add Kapton tape and a small thermal pad on the SI4732 | ![Removed cap](images/3b._Capacitor_also_removed.jpg) |
+| 3b️⃣ | Remove the coupling capacitor, add Kapton tape and a small thermal pad on the SI4732. Thermal pad is used as a spacer between the SI4732 and the shielding case, to reduce the effect that bending of the shield acting as an efficient atenna for the SI VCO | ![Removed cap](images/3b._Capacitor_also_removed.jpg) |
 | 4️⃣ | Add the 7-turn (2 mm) coil between SMA and RF input | ![Add coil](images/4._Add_the_coil.jpg) |
 
 ---
