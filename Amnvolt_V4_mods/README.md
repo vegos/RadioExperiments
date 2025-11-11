@@ -100,9 +100,7 @@ This design caused:
 
 ## ✍️ Credits
 
-- **Hardware Analysis & Mod:** [Antonis Maglaras (@vegos)](https://github.com/vegos)  
-- **Original Coil Concept:** [Peter Neufeld](https://peterneufeld.wordpress.com/)  
-- **Measurements:** tinySA Ultra  
+- **Original Concept:** [Peter Neufeld](https://peterneufeld.wordpress.com/)  
 
 ---
 
