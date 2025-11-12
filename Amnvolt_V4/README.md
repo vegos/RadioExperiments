@@ -90,36 +90,6 @@ This page summarizes both observed hardware details and the manufacturer’s sta
 
 ---
 
-## 📐 Mini ATS V4 – Input Impedance Characterization  
-**Measured with NanoVNA H4 (v1.2.46 DiSlord Firmware)**  
-_All measurements performed after full calibration, using direct connection to receiver input._
-
-| Band / Frequency | Impedance (Z) | Reactance (jX) | Behavior | VSWR | Notes |
-|------------------|----------------|----------------|-----------|-------|-------|
-| **MW (1.445 MHz)** | 50.2 − j5.3 Ω | Slightly inductive | Almost pure resistive | ≈ 1.1 : 1 | Near-ideal 50 Ω match |
-| **SW (7.3 MHz)** | 50.7 − j15.1 Ω | Inductive | Good broadband match | ≈ 1.3 : 1 | Stable HF response |
-| **CB (27.55 MHz)** | 65.9 − j19.5 Ω | Mildly inductive | Very good match | ≈ 1.6 : 1 | Slightly higher R, expected at CB |
-| **VHF (104 MHz)** | 65.6 − j10.7 Ω | Mildly inductive | Stable match | ≈ 1.6 : 1 | Excellent wide-band input behavior |
-
-**Summary:**  
-The Mini ATS V4 input remains consistently close to 50 Ω across MW, HF, CB and VHF bands.  
-Minor inductive reactance (−jX) is present, consistent with the receiver’s front-end LC matching and ESD protection.  
-Overall SWR < 2 throughout — the receiver input is essentially a perfect 50 Ω termination.
-
-**Note:**  
-[Earlier Mini ATS models](../Unun91_Transformer#-receiver-input-characterization-no-transformer) had significantly different input impedance characteristics:  
-
-| Receiver | Freq (MHz) | Parallel R | Input Z (approx.) | Notes |
-|-----------|-------------|-------------|--------------------|-------|
-| **MiniATS V1** | 6.88 | 8.9 kΩ | ≈ 9 kΩ | Early design, medium-high Z |
-| **MiniATS V2** | 6.88 | 18.1 kΩ | ≈ 18 kΩ | Improved front-end coupling |
-| **MiniATS V3** | 6.88 | 774 kΩ | ≈ 770 kΩ | Very high-Z input |
-| **MiniATS V3S** | 6.88 | 775 kΩ | ≈ 770 kΩ | Matches V3 behavior |
-
-In contrast, the **V4 version** shows a proper 50 Ω RF-matched input across all major bands.
-
----
-
 ## 🧰 Mods (so far)
 
 ![PCB With 0 Ω Resistor](images/11._PCB_With_0R.jpg)
