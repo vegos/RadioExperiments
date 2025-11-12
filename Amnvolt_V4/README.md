@@ -106,6 +106,12 @@ The Mini ATS V4 input remains consistently close to 50 Ω across MW, HF, CB and 
 Minor inductive reactance (−jX) is present, consistent with the receiver’s front-end LC matching and ESD protection.  
 Overall SWR < 2 throughout — the receiver input is essentially a perfect 50 Ω termination.
 
+**Note:**  
+Earlier Mini ATS models had significantly different input impedance characteristics:  
+- **V1 / V2:** ~7 kΩ input impedance  
+- **V3 / V3S:** ~500 kΩ input impedance  
+In contrast, the **V4 version** shows a proper 50 Ω RF-matched input across all major bands.
+
 ---
 
 ## 🧰 Mods (so far)
