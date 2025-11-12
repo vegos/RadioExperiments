@@ -107,9 +107,15 @@ Minor inductive reactance (−jX) is present, consistent with the receiver’s f
 Overall SWR < 2 throughout — the receiver input is essentially a perfect 50 Ω termination.
 
 **Note:**  
-Earlier Mini ATS models had significantly different input impedance characteristics:  
-- **V1 / V2:** ~7 kΩ input impedance  
-- **V3 / V3S:** ~500 kΩ input impedance  
+[Earlier Mini ATS models](../Unun91_Transformer#-receiver-input-characterization-no-transformer) had significantly different input impedance characteristics:  
+
+| Receiver | Freq (MHz) | Parallel R | Input Z (approx.) | Notes |
+|-----------|-------------|-------------|--------------------|-------|
+| **MiniATS V1** | 6.88 | 8.9 kΩ | ≈ 9 kΩ | Early design, medium-high Z |
+| **MiniATS V2** | 6.88 | 18.1 kΩ | ≈ 18 kΩ | Improved front-end coupling |
+| **MiniATS V3** | 6.88 | 774 kΩ | ≈ 770 kΩ | Very high-Z input |
+| **MiniATS V3S** | 6.88 | 775 kΩ | ≈ 770 kΩ | Matches V3 behavior |
+
 In contrast, the **V4 version** shows a proper 50 Ω RF-matched input across all major bands.
 
 ---
