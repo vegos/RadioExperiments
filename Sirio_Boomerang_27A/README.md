@@ -131,3 +131,38 @@ Including also a point near **21 MHz (15 m region)**:
 > **tinySA Summary**  
 > The 26–28 MHz region shows the strongest overall RF presence, which matches both the antenna’s tuning and the real CB activity during the measurement period.  
 > Around **21 MHz**, the band was relatively quiet at the time of measurement, and the lower received level also reflects the poorer impedance match compared to the CB segment.
+
+---
+
+## 3. Combined Interpretation (NanoVNA + tinySA)
+
+Looking at both the impedance (NanoVNA) and the received RF spectrum (tinySA), a few additional conclusions can be drawn:
+
+1. **On the CB band (11 m), the system is not mismatch-limited**
+
+   The NanoVNA shows excellent matching from roughly 26.9 to 27.7 MHz (SWR ~1.2–1.5, mismatch loss < 0.2 dB), while the tinySA clearly shows that the 26–28 MHz region is the most active and “RF-rich” part of the 20–30 MHz spectrum.
+
+   This means that, on CB, the overall performance is primarily limited by:
+   - the antenna’s radiation pattern (¼-wave vertical),
+   - the urban noise environment,
+   - and propagation conditions,
+
+   rather than by feedline mismatch or poor tuning.  
+   Any future improvement with a ½-wave antenna will therefore mostly reflect **real antenna/pattern gain**, not just “better SWR”.
+
+2. **Around 21 MHz (15 m region), the antenna is usable for RX but clearly sub-optimal for TX**
+
+   At 21.000 MHz, the NanoVNA reports SWR ≈ 3.9 and a mismatch loss of ~1.9 dB. The tinySA also shows relatively low activity and lower received levels in this part of the spectrum during the measurement.
+
+   The reduced performance at 21 MHz is therefore a combination of:
+   - poorer impedance matching,
+   - less RF activity / propagation at the time,
+   - and the fact that the antenna is physically designed and tuned for ~27 MHz.
+
+   In practice, the Boomerang 27A can still be used as a **general-purpose receive antenna** in the 15 m region, but a tuner (and ideally a more suitable radiator) would be strongly recommended for transmit.
+
+3. **No obvious anomalous resonances or pathological behaviour**
+
+   The 20–30 MHz NanoVNA sweep does not show unexpected secondary resonances in this range, and the tinySA trace does not reveal any abnormal narrow-band spikes that would suggest strong local interference or odd coupling effects in the measurement setup.
+
+   Overall, the antenna + feedline + environment behave as a “normal” ¼-wave vertical tuned for CB around 27 MHz. This makes these measurements a solid and trustworthy baseline for future comparison with the Sirio GPS 1/2 (½-wave) antenna under the same conditions.
