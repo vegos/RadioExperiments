@@ -72,7 +72,7 @@ Already installed.
 Removed headphone-ground → antenna coupling capacitor to prevent headphones acting as antenna.
 
 ### ✔ Reduction of SI4732 VCO interference
-The V4 suffers stronger VCO leakage; the air‑coil reduces this significantly.  
+The impact of this modification is even more important on the V4, because VCO leakage is much stronger on this version.
 Related: https://github.com/vegos/RadioExperiments/tree/main/Amnvolt_V4_mods
 
 ## 🔬 High-Z Front-End (JFET) Differences
@@ -86,6 +86,8 @@ Effect:
 - identical AGC logic
 - identical firmware S-meter scaling
 - V3S shows **0.5–1 S-unit stronger** for the same signal
+
+These differences explain the 1–3 dB gain offset between the two receivers and are entirely due to hardware-level variation, not firmware.  
 
 ## 📊 USB Measurements (5 mVpp → −72 dBm)
 
@@ -140,12 +142,13 @@ Effect:
 
 ## ✔ Conclusions
 
-The MiniATS V3S and V4 share identical firmware and similar architecture, yet their **High‑Z JFET input stages differ**, giving the V3S a consistent **1–3 dB gain advantage**.
+The MiniATS V3S and V4 share identical firmware and a very similar overall architecture, yet their High-Z JFET input stages differ, **giving the V3S a consistent 1–3 dB RF** gain advantage.  
 
-Both receivers show good frequency flatness across 3–27 MHz.  
-The air‑coil modification greatly improves RF behavior, removes SMA-ground capacitive interactions ("theremin effect"), and — especially on the V4 — reduces SI4732 VCO interference.  
-More information about the coil etc you can find on [Peter Neufeld](https://peterneufeld.wordpress.com/) blog.  
+Both receivers exhibit good frequency flatness across 3–27 MHz.  
+The air-coil modification significantly improves RF behavior, eliminates SMA-ground capacitive interactions (“theremin effect”), and—especially on the V4—reduces SI4732 VCO interference.  
+More details about this coil configuration can be found on [Peter Neufeld’s blog](https://peterneufeld.wordpress.com/).  
   
-Functionally, both units perform similarly overall; BUT the V3S simply has a slightly stronger High‑Z front-end response which reflects to better reception.  
+Functionally, the two units perform similarly in most situations; **however, the V3S has a slightly stronger High-Z front-end response, which translates into marginally better reception sensitivit**y.  
   
-Note that this is covers ONLY the performance of the radios, it doesn't cover any other known problems (V4 out-of-the-box suffers from clicking noise, VCO leakage, noise coming from the headphones-as-antenna traces and circuit, and more).  
+Note: The conclusions above refer only to RF performance.  
+They do not cover other known issues with the V4 out of the box (clicking noise, SI4732 VCO leakage, headphone-ground acting as an antenna, and other PCB-level noise sources).  
