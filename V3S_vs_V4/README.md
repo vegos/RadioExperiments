@@ -132,7 +132,7 @@ Effect:
 | 20 MHz | S3.5 |
 | 27 MHz | S4 |
 
-## 📈 Plots (stored in ./images/)
+## 📈 Plots
 
 ![MiniATS USB Comparison](./images/miniats_usb_comparison.png)  
 ![MiniATS AM Comparison](./images/miniats_am_comparison.png)
