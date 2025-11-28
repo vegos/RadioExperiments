@@ -32,6 +32,7 @@ BNC → RG58 → SMA adapters → 30 dB attenuator → MiniATS (High-Z always ac
 - AGC: ON
 - Volume: 35
 - Step: 1 kHz (USB), 5 kHz (AM)
+- Firmware: [v2.33](https://github.com/esp32-si4732/ats-mini)
 
 ### USB Tests (5 mVpp, −72 dBm)
 - Waveform: Sine
