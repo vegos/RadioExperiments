@@ -1,5 +1,4 @@
 # FT8 Reception Test – 40 m (7074 kHz USB)  
-**MiniATS V4 (Modded) – Moonraker X1-HF – Steinberg UR22C – WSJT-X**
 
 ![Reception map](./images/map7074.png)
 
@@ -15,6 +14,7 @@
 - **QTH:** KM17UW (near sea level, urban environment)  
 - **Mode:** FT8 @ 7074 kHz USB  
 - **Date:** Saturday 29/11/2025 → Sunday 30/11/2025 (UTC)
+- **Mods:** [Described here](../../Amnvolt_V4_mods)
 
 ---
 
