@@ -117,6 +117,8 @@ This page summarizes both observed hardware details and the manufacturer’s sta
 ## 📻 Reception Tests
 
 - [`FT8 Decoding with the (modded) MiniATS V4`](./Reception_Tests/README.md)
+- [`FT8 Decoding with the (modded) MiniATS V4 v2`](./Reception_Tests_v2/README.md)
+
 
 ---
 
