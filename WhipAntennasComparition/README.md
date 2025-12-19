@@ -141,7 +141,7 @@ In practice, the measurements align with what experienced operators expect:
 ![tinySA CB Diamond SRH789](./images/TinySA-CB-DIAMOND_SRH789.bmp)
 
 ### Intek Handycom 90S
-![tinySA CB Intek Handycom 90S](./images/TinySA--CB-INTEK_Handycom_90S.bmp)
+![tinySA CB Intek Handycom 90S](./images/TinySA-CB-INTEK_Handycom_90S.bmp)
 
 ### CB RX summary (comparative)
 - Intek rubber shows the clearest advantage near **~29 MHz**, consistent with NanoVNA resonance.
