@@ -55,10 +55,12 @@ So the goal became:
 
 ## Instruments
 
-- **NanoVNA**
-  - Used to capture matching/resonance characteristics (S11, SWR)
-- **tinySA**
+- **NanoVNA-H4**
+  - Used to capture matching/resonance characteristics (S11, SWR)  
+  - Firmware: DiSlord / NanoVNA-D v1.2.46  
+- **tinySA Ultra+**
   - Used to compare receive behavior under a real RF environment
+  - Firmware: tinySA4 v1.4-217
 
 ---
 
