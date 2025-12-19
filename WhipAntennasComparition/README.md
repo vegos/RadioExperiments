@@ -34,7 +34,7 @@ In practical use, the **stock BJ-8200 antenna** proved weak and inconsistent.
 So the goal became:
 
 > Try several antennas already on hand and determine **which antenna “fits” best**
-> and **on which band** — using repeatable, comparable measurements.
+> and **on which band** - using repeatable, comparable measurements.
 
 ---
 
@@ -112,7 +112,7 @@ In practice, the measurements align with what experienced operators expect:
 
 # CB Band (21-30 MHz)
 
-## NanoVNA — CB
+## NanoVNA - CB
 
 ### Abbree CB02
 ![NanoVNA CB Abbree CB02](./images/NanoVNA-CB-ABBREE_CB02.bmp)
@@ -132,7 +132,7 @@ In practice, the measurements align with what experienced operators expect:
 
 ---
 
-## tinySA — CB
+## tinySA - CB
 
 ### Abbree CB02
 ![tinySA CB Abbree CB02](./images/TinySA-CB-ABBREE_CB02.bmp)
@@ -151,7 +151,7 @@ In practice, the measurements align with what experienced operators expect:
 
 # VHF Band (110-180 MHz)
 
-## NanoVNA — VHF
+## NanoVNA - VHF
 
 ### Abbree AR-771
 ![NanoVNA VHF Abbree AR-771](./images/NanoVNA-V-ABBREE_AR-AR-771.bmp)
@@ -173,7 +173,7 @@ In practice, the measurements align with what experienced operators expect:
 
 ---
 
-## tinySA — VHF
+## tinySA - VHF
 
 ### Abbree AR-771
 ![tinySA VHF Abbree AR-771](./images/TinySA-V-ABBREE_AR-771.bmp)
@@ -196,7 +196,7 @@ In practice, the measurements align with what experienced operators expect:
 
 # UHF Band (400-480 MHz)
 
-## NanoVNA — UHF
+## NanoVNA - UHF
 
 ### Abbree AR-771
 ![NanoVNA UHF Abbree AR-771](./images/NanoVNA-U-ABBREE_AR-771.bmp)
@@ -218,7 +218,7 @@ In practice, the measurements align with what experienced operators expect:
 
 ---
 
-## tinySA — UHF
+## tinySA - UHF
 
 ### Abbree AR-771
 ![tinySA UHF Abbree AR-771](./images/TinySA-U-ABBREE_AR-771.bmp)
@@ -242,7 +242,7 @@ In practice, the measurements align with what experienced operators expect:
 
 ## Overall summary (practical)
 
-This is not an “absolute best antenna” list — it is the **most practical conclusion** from the comparative measurements:
+This is not an “absolute best antenna” list - it is the **most practical conclusion** from the comparative measurements:
 
 - **Best overall dual-band (VHF/UHF):** **Abbree AR-771**
 - **Balanced dual-band, solid performer:** **Diamond SRH789 (genuine)**
