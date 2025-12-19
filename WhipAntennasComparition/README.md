@@ -16,7 +16,7 @@ The measurements are presented with plots from:
 
 ## Motivation (Why this repo exists)
 
-This project started after purchasing a **Bajeton BJ-8200 BT** handheld radio,
+This project started after purchasing a **Bajeton BJ-8200** handheld radio,
 which was subsequently flashed with the **Bintolk BT-8200 BT (BT8200Pro_ENG_RUSS_V0.16(BT)) firmware**.
 
 The radio provides wide frequency coverage:
