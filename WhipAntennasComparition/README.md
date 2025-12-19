@@ -2,9 +2,9 @@
 
 This repository documents **comparative whip antenna measurements** across:
 
-- **CB / 11 m (21–30 MHz)**
-- **VHF / 2 m (110–180 MHz)**
-- **UHF / 70 cm (400–480 MHz)**
+- **CB / 11 m (21-30 MHz)**
+- **VHF / 2 m (110-180 MHz)**
+- **UHF / 70 cm (400-480 MHz)**
 
 The measurements are presented with plots from:
 - **NanoVNA** (impedance/matching: S11, SWR)
@@ -21,10 +21,10 @@ which was subsequently flashed with the **Bintolk BT-8200 BT (BT8200Pro_ENG_RUSS
 
 The radio provides wide frequency coverage:
 
-- **TX/RX:** 18–108 MHz  
-- **RX:** 108–136 MHz (airband)  
-- **TX/RX:** 136–580 MHz  
-- **TX/RX:** 760–999 MHz  
+- **TX/RX:** 18-108 MHz  
+- **RX:** 108-136 MHz (airband)  
+- **TX/RX:** 136-580 MHz  
+- **TX/RX:** 760-999 MHz  
 
 Supported modes:
 - **TX:** FM  
@@ -110,7 +110,7 @@ In practice, the measurements align with what experienced operators expect:
 
 ---
 
-# CB Band (21–30 MHz)
+# CB Band (21-30 MHz)
 
 ## NanoVNA — CB
 
@@ -149,7 +149,7 @@ In practice, the measurements align with what experienced operators expect:
 
 ---
 
-# VHF Band (110–180 MHz)
+# VHF Band (110-180 MHz)
 
 ## NanoVNA — VHF
 
@@ -194,7 +194,7 @@ In practice, the measurements align with what experienced operators expect:
 
 ---
 
-# UHF Band (400–480 MHz)
+# UHF Band (400-480 MHz)
 
 ## NanoVNA — UHF
 
