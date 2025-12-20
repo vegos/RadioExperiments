@@ -1,6 +1,6 @@
 # Handheld Antenna Comparative Measurements (NanoVNA & tinySA)
 
-This repository documents **comparative whip antenna measurements** across:
+This repository documents **comparative handheld whip antenna measurements** across:
 
 - **CB / 11 m (21-30 MHz)**
 - **VHF / 2 m (110-180 MHz)**
@@ -59,7 +59,7 @@ So the goal became:
   - Used to capture matching/resonance characteristics (S11, SWR)  
   - Firmware: DiSlord / NanoVNA-D v1.2.46  
 - **tinySA Ultra+**
-  - Used to compare receive behavior under a real RF environment
+  - Used to compare relative receive level as observed by a spectrum analyzer in a real RF environment
   - Firmware: tinySA4 v1.4-217
 
 ---
@@ -94,6 +94,16 @@ They are **not** intended to represent:
   (antenna + radio + operator), which cannot be fully represented in this setup
 - tinySA measurements reflect **whatever RF signals were present in the environment**
   at the time of measurement
+
+### Why no counterpoise was added
+
+No external counterpoise or ground reference was intentionally added.
+The goal was not to simulate an ideal antenna system,
+but to compare antennas under the *same incomplete but identical conditions*.
+
+Adding a counterpoise would change absolute behavior,
+but would not improve the validity of a relative comparison
+unless applied identically to all antennas and use cases.
 
 ### Interpretation Guidelines
 
