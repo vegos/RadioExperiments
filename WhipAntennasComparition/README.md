@@ -71,21 +71,49 @@ So the goal became:
 - Same physical location, same orientation, same general setup per band, same time
 - NanoVNA calibration at the SMA reference plane (where the antenna connects)
 
-### Interpretation disclaimer (very important)
+## Disclaimer & Limitations
 
-These measurements are **comparative only**:
-- No anechoic chamber
-- No absolute gain or radiation pattern measurements
-- tinySA sees *whatever RF exists in the environment at the time*
-- Absolute signal levels are not meaningful
-- **Only relative differences between antennas tested under identical conditions are considered meaningful**
+All measurements presented in this repository are **strictly comparative**.
 
-### Why direct-SMA matters
-For handheld antennas, the “system” includes:
-- antenna + radio chassis + user coupling (hand/body)
+They are **not** intended to represent:
+- absolute antenna performance
+- certified SWR values
+- antenna gain
+- radiation patterns
+- or laboratory-grade RF measurements
 
-Measuring direct on NanoVNA/tinySA means the counterpoise is essentially the instrument body.
-This is still valid **for comparison** (because conditions are identical), but it can penalize antennas that strongly depend on the handheld chassis.
+### Measurement Limitations
+
+- No anechoic chamber or controlled RF environment was used
+- No absolute reference antenna was employed
+- Antennas were measured **directly on the instrument SMA connector**
+  - **without a defined counterpoise**
+  - **without a representative radio chassis**
+  - **without user/body coupling**
+- Handheld antennas are part of a **complete system**
+  (antenna + radio + operator), which cannot be fully represented in this setup
+- tinySA measurements reflect **whatever RF signals were present in the environment**
+  at the time of measurement
+
+### Interpretation Guidelines
+
+- Absolute numbers should **not** be compared to datasheets or other test setups
+- Only **relative differences between antennas measured under identical conditions**
+  should be considered meaningful
+- Results may vary significantly depending on:
+  - radio chassis
+  - counterpoise and grounding
+  - antenna orientation
+  - user grip and proximity
+  - local RF environment
+
+### Intended Use
+
+These measurements are provided to help answer one specific question only:
+
+> *Under identical conditions, which antenna behaves better relative to the others?*
+
+Any other interpretation is outside the scope of this repository.
 
 ---
 
