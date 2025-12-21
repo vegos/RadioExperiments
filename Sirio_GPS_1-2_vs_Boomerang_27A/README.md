@@ -180,3 +180,10 @@ a solid and efficient solution for narrowly focused CB operation.
 - Results reflect this specific installation and environment.
 - Repeating the tinySA measurements at different times and propagation conditions would further improve statistical confidence.
 
+
+---
+
+### Detailed Tests
+
+- [Sirio GPS 1/2](../Sirio_GPS_1-2/)
+- [Sirio Boomerang 27A](../Sirio_Boomerang_27A/)
