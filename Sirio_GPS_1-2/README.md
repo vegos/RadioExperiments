@@ -169,3 +169,8 @@ From a practical standpoint, this makes the GPS 1/2 far less sensitive to small 
 (height, nearby structures, feedline effects) and significantly more tolerant of off-band operation.
 The antenna behaves as a **broadband, electrically stable radiator**, rather than a narrowly tuned CB-only antenna.
 
+
+---
+
+**Related:**  
+- [Comparison: Sirio GPS 1/2 vs Sirio Boomerang 27A](../Sirio_GPS_1-2_vs_Boomerang_27A/)
