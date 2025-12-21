@@ -162,6 +162,8 @@ Legend:
 
 ## 6. Practical Conclusions
 
+![Comparition](./Comparition.png)  
+
 - For **CB-only operation**, both antennas perform well; the Boomerang slightly favors absolute SWR.
 - For **CB + extended operation (27.700 MHz, 10 m)**, the GPS 1/2 is clearly superior.
 - The GPS 1/2 offers:
