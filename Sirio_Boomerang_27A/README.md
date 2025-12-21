@@ -166,3 +166,8 @@ Looking at both the impedance (NanoVNA) and the received RF spectrum (tinySA), a
    The 20–30 MHz NanoVNA sweep does not show unexpected secondary resonances in this range, and the tinySA trace does not reveal any abnormal narrow-band spikes that would suggest strong local interference or odd coupling effects in the measurement setup.
 
    Overall, the antenna + feedline + environment behave as a “normal” ¼-wave vertical tuned for CB around 27 MHz. This makes these measurements a solid and trustworthy baseline for future comparison with the Sirio GPS 1/2 (½-wave) antenna under the same conditions.
+
+---
+
+**Related:**  
+- [Comparison: Sirio GPS 1/2 vs Sirio Boomerang 27A](../Sirio_GPS_1-2_vs_Boomerang_27A/)
