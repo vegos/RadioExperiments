@@ -139,23 +139,7 @@ This page collects what’s observable from the unit in hand plus the manufactur
 - **Enclosure:** **ABS injection‑molded**  
 - **On‑board:** JST battery connector, tactile buttons (BOOT/RESET), piezo/mini speaker  
 
-
----
-
-## 📦 File Layout
-```
-repo-root/
-├─ README.md
-└─ images/
-   ├─ 1.jpg        # front
-   ├─ 2.jpg        # back
-   ├─ 3.jpg        # AM screen
-   ├─ 4.jpg        # FM screen
-   ├─ 5.jpg        # PCB close
-   ├─ 6.jpg        # PCB + battery
-   ├─ 7.jpg        # ESP32‑SI4732 sub‑board
-   └─ 8.jpg        # battery & speaker detail
-```
+- [Datasheets](datasheets/)  
 
 
 ---
