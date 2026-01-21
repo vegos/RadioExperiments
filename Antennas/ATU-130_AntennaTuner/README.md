@@ -1,11 +1,11 @@
 # ATU-130 Automatic Antenna Tuner – How It Really Works  
-## Practical Behavior, Measurements & Common Misunderstandings
+## Practical Behavior & Measurements
 
 [![ATU-130 Antenna Tuner](./images/1.jpg)](./images/1.jpg)
 
 This document summarizes **real-world measurements and observed behavior** of the popular **ATU-130 automatic antenna tuner**, based on extensive hands-on testing.
 
-The goal is to clarify **what the ATU-130 actually does**, **what its display really means**, and **why you get confused by its SWR readings**.
+The goal is to clarify **what the ATU-130 actually does**, **what its display really means**, and **what about its SWR readings**.
 
 ---
 
@@ -33,7 +33,7 @@ Measurements were taken:
 ## Seller Description (As Provided)
 
 ⚠️ **Important:**  
-**No official manual exists** for the ATU-130 — neither printed nor online.  
+**No official manual exists** for the ATU-130 — neither printed nor online. Or at least, I haven't found it!  
 The following text is the **only documentation provided by the seller**.
 
 ---
@@ -186,8 +186,12 @@ The ATU-130 is **highly sensitive to grounding quality**.
 
 ## 7. Representative Measurements
 
+> Note:  
+> TX SWR values are measured either by the transceiver’s internal SWR meter or by an external SWR meter placed **before** the ATU.  
+> "Antenna-side" SWR values are measured using an external SWR meter placed **after** the ATU.  
+
 ### Near Resonance (~27–28 MHz)
-| Mode | TX SWR | ATU SWR | After ATU |
+| Mode | TX SWR (before ATU) | ATU Display SWR | SWR measured after the ATU (antenna side) |
 |----|----|----|----|
 | BYPASS | ~1.1 | ~1.1 | ~1.2–1.3 |
 | TUNED | ~1.0–1.1 | ~1.05 | ~1.2 |
@@ -195,7 +199,7 @@ The ATU-130 is **highly sensitive to grounding quality**.
 ---
 
 ### 30 MHz
-| Mode | TX SWR | ATU SWR |
+| Mode | TX SWR (before ATU) | ATU Display SWR |
 |----|----|----|
 | RESET | ~2.3 | ~4.2 |
 | TUNED | ~1.0 | ~1.1–1.2 |
@@ -203,12 +207,14 @@ The ATU-130 is **highly sensitive to grounding quality**.
 ---
 
 ### 21 MHz (15 m band, CB antenna)
-| Mode | TX SWR | ATU SWR | After ATU |
+| Mode | TX SWR (before ATU) | ATU Display SWR | SWR measured after the ATU (antenna side) |
 |----|----|----|----|
 | BYPASS | ~2.7 | ~3.5 | ~3+ |
 | TUNED | ~1.3–1.5 | ~1.05 | ~3 |
 
 Low SWR at the transmitter **does not imply good radiation efficiency**.
+
+Even though the transmitter sees a much improved SWR when tuned, the antenna-side SWR remains high, clearly demonstrating this effect when operating far off-band.
 
 ---
 
@@ -240,7 +246,7 @@ If a neutral RF path is required, **only BYPASS should be used** — and even th
 
 ### 2. BYPASS Is Not a “Piece of Wire”
 
-From S21 (insertion loss) measurements:
+From S21 (insertion loss) measurements with NanoVNA:
 
 - Typical insertion loss:
   - **BYPASS:** ~0.6–0.7 dB
@@ -260,7 +266,7 @@ This happens because BYPASS still passes through:
 
 ### 3. The ATU Changes Phase, Not Just SWR
 
-Complex S11 and S21 data showed that the ATU-130:
+Complex S11 and S21 data (NanoVNA measurements) showed that the ATU-130:
 
 - Changes both:
   - the **magnitude** of the reflection coefficient (|Γ|)
