@@ -465,20 +465,20 @@ NanoVNA testing confirmed that:
 
 ---
 
+## TL;DR
+
+> **If the SWR before the tuner is low,  
+> the ATU-130 is doing its job —  
+> even if the antenna side still looks ugly.**
+
+---
+
 ## Photos
 
 [![ATU-130 Antenna Tuner](./images/2.jpg)](./images/2.jpg)  
 [![ATU-130 Antenna Tuner](./images/3.jpg)](./images/3.jpg)  
 [![ATU-130 Antenna Tuner](./images/4.jpg)](./images/4.jpg)  
 [![ATU-130 Antenna Tuner](./images/5.jpg)](./images/5.jpg)  
-
----
-
-## TL;DR
-
-> **If the SWR before the tuner is low,  
-> the ATU-130 is doing its job —  
-> even if the antenna side still looks ugly.**
 
 ---
 
