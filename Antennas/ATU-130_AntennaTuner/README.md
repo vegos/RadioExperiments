@@ -1,6 +1,8 @@
 # ATU-130 Automatic Antenna Tuner – How It Really Works  
 ## Practical Behavior, Measurements & Common Misunderstandings
 
+[![ATU-130 Antenna Tuner](./images/1.jpg)](./images/1.jpg)
+
 This document summarizes **real-world measurements and observed behavior** of the popular **ATU-130 automatic antenna tuner**, based on extensive hands-on testing.
 
 The goal is to clarify **what the ATU-130 actually does**, **what its display really means**, and **why you get confused by its SWR readings**.
@@ -460,6 +462,15 @@ NanoVNA testing confirmed that:
 
 > **Without NanoVNA measurements, it would be very difficult  
 > to distinguish “bad readings” from a “bad tuner”.**
+
+---
+
+## Photos
+
+[![ATU-130 Antenna Tuner](./images/2.jpg)](./images/2.jpg)  
+[![ATU-130 Antenna Tuner](./images/3.jpg)](./images/3.jpg)  
+[![ATU-130 Antenna Tuner](./images/4.jpg)](./images/4.jpg)  
+[![ATU-130 Antenna Tuner](./images/5.jpg)](./images/5.jpg)  
 
 ---
 
