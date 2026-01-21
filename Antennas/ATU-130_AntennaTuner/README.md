@@ -476,6 +476,11 @@ NanoVNA testing confirmed that:
 > **If the SWR before the tuner is low,  
 > the ATU-130 is doing its job —  
 > even if the antenna side still looks ugly.**
+  
+> **Field observation:  
+> When the antenna SWR is already around ~1.3–1.4,  
+> the ATU-130 does not attempt to retune,  
+> as the mismatch is considered acceptable by its algorithm.**
 
 ---
 
