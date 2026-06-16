@@ -1,1 +1,47 @@
+# MiniATS SSTV / WeFAX Decoder Mod
 
+With the firmware released in June 2026, H.J. Berndt added SSTV and WeFAX decoding support to the MiniATS. For this feature, an I2S digital microphone module, based on the INMP441, has to be added and connected directly to the ESP32-S3.
+
+It is worth noting that CW and RTTY decoding already existed in previous firmware versions. Those modes require a different hardware modification, using an additional signal wire plus a simple resistor and capacitor circuit. This post focuses only on the SSTV and WeFAX microphone modification.
+
+The mod was performed on my MiniATS V2, which has become my personal testing platform and has already received several other experimental modifications over time.
+
+For the wiring, I used 0.2 mm enamel wire. Following Peter Neufeld’s recommendation, I tried to keep the wires as short as possible to minimize the risk of noise pickup and interference. They could probably have been even shorter, but this was my first implementation and it worked successfully.
+
+## Photos
+
+![Soldering on ESP32-S3](images/SolderingOnESP.jpg)
+
+Soldering the wires directly to the ESP32-S3 GPIO pins.
+
+The previously added wire from the speaker output to an ESP32 GPIO pin is also visible. That earlier modification is used for CW/RTTY decoding.
+
+![Soldering on INMP441 microphone](images/SolderingOnMic.jpg)
+
+The other end of the wiring, soldered to the INMP441 microphone module.
+
+![Ready for testing](images/Ready.jpg)
+
+Ready for the first test before final securing.
+
+![Microphone secured with Kapton tape](images/Secured.jpg)
+
+Kapton tape was used both to secure the microphone mechanically and to insulate it electrically, protecting it from possible short circuits inside the case.
+
+![First SSTV reception in Martin 1 mode](images/ReceptionMartin1.jpg)
+
+The first successful SSTV reception.
+
+The image was transmitted from a CRT SS9900V on 27.700 MHz USB and received by the MiniATS using the Martin 1 SSTV mode.
+
+## Result
+
+The result is quite impressive, considering that the decoding is performed entirely inside such a small portable receiver, without using a computer, smartphone, or external decoding software.
+
+## References
+
+- H.J. Berndt's firmware and documentation:
+  - http://www.hjberndt.de/dvb/pocketSI4735DualCoreDecoder.html
+
+- Peter Neufeld's experiments and notes:
+  - https://peterneufeld.wordpress.com/
