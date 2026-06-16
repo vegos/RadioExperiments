@@ -92,4 +92,4 @@ This modification involves soldering **directly** to ESP32-S3 module pins and ot
   https://peterneufeld.wordpress.com/
 
 - INMP441 Datasheet:  
-  https://github.com/vegos/RadioExperiments/blob/main/MiniATS/I2S_Mic_Mod/INMP441-Datasheet.pdf
+  [INMP441 Datasheet](INMP441-Datasheet.pdf)
