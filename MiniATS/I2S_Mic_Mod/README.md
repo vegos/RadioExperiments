@@ -16,7 +16,7 @@ Soldering the wires directly to the ESP32-S3 GPIO pins.
 
 The previously added wire from the speaker output to an ESP32 GPIO pin is also visible. That earlier modification is used for CW/RTTY decoding.
 
-![Soldering on INMP441 microphone](images/SolderingOnMic.jpg)
+![Soldering on INMP441 microphone](images/SolderingOnESP.jpg)
 
 The other end of the wiring, soldered to the INMP441 microphone module.
 
