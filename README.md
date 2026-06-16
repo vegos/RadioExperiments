@@ -75,6 +75,10 @@ Experiments and comparisons around MiniATS receivers (V2/V3/V3S/V4), including t
 - [`MiniATS/V3S_vs_V4`](./MiniATS/V3S_vs_V4)  
   Direct comparison tests between MiniATS V3S and V4.
 
+
+- [`MiniATS I2S Mic Mod for SSTV/WeFAX decoding`](MiniATS/I2S_Mic_Mod/)
+  With the June 2026 firmware release, H.J. Berndt introduced SSTV and WeFAX decoding support for the MiniATS. Here is how to mod it.
+
 ---
 
 ## Misc
