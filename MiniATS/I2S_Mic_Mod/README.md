@@ -45,6 +45,13 @@ The first successful SSTV reception.
 The image was transmitted using a CRT SS9900V on 27.700 MHz USB and received by the MiniATS using the Martin 1 SSTV mode.
 
 
+## Video Demonstration
+
+[![Watch the SSTV demonstration](https://img.youtube.com/vi/788bg-fVKyQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=788bg-fVKyQ)
+
+Click the image above to watch the video.
+
+
 ## Result
 
 The result is quite impressive, considering that SSTV images and weather fax charts can now be decoded directly on such a small portable receiver, without requiring a PC, smartphone, or external decoding software.
