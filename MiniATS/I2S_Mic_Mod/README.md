@@ -9,6 +9,15 @@ The mod was performed on my MiniATS V2, which has become my personal testing pla
 For the wiring, I used 0.2 mm enamel wire. Following [Peter Neufeld](https://peterneufeld.wordpress.com/)'s recommendation, I tried to keep the wires as short as possible to minimize noise pickup and interference. They could probably have been even shorter, but this was my first implementation and it worked successfully.
 
 
+## Wiring Diagram
+
+The SSTV/WeFAX firmware uses an INMP441 I2S microphone connected directly to the ESP32-S3. The diagram below shows the required wiring between the microphone module and the MiniATS board.
+
+The L/R pin is tied to GND to select the left audio channel. All other connections follow the standard I2S interface used by the firmware.
+
+![INMP441 wiring diagram](images/Wiring.jpg)
+
+
 ## Photos
 
 ![Soldering on ESP32-S3](images/SolderingOnESP.jpg)
