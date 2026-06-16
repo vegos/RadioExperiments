@@ -2,7 +2,7 @@
 
 With the June 2026 firmware release, [H.J. Berndt](http://www.hjberndt.de/dvb/pocketSI4735DualCoreDecoder.html) introduced SSTV and WeFAX decoding support for the MiniATS. These new modes require the addition of an I2S digital microphone module based on the INMP441.
 
-It is worth noting that CW and RTTY decoding already existed in previous firmware versions. Those modes require a different hardware modification, using an additional signal wire plus a simple resistor and capacitor circuit. This post focuses only on the SSTV and WeFAX microphone modification.
+It is worth noting that CW and RTTY decoding already existed in previous firmware versions. Those modes require a different hardware modification, using an additional signal wire plus a simple resistor and capacitor circuit. You can find more information [here](https://peterneufeld.wordpress.com/2026/06/08/wefax-sstv-for-ats-miniradio-v1-to-v4b/). This post focuses only on the SSTV and WeFAX microphone modification.
 
 The mod was performed on my MiniATS V2, which has become my personal testing platform and has already received several other experimental modifications over time.
 
