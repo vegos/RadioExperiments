@@ -72,6 +72,8 @@ The image was transmitted using a CRT SS9900V on 27.700 MHz USB and received by 
   
 [![Watch the SSTV demonstration / Part II](https://img.youtube.com/vi/gpqXf7BfgaU/maxresdefault.jpg)](https://www.youtube.com/watch?v=gpqXf7BfgaU)  
   
+[![Watch the SSTV demonstration / Part III](https://img.youtube.com/vi/iOUvS994ZFI/maxresdefault.jpg)](https://www.youtube.com/watch?v=iOUvS994ZFI)  
+  
 Click the images above to watch the videos.  
   
   
